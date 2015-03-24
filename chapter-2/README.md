@@ -1,6 +1,6 @@
-# new-project
+# Purescript by Example Exercises
 
-An empty PureScript project.
+First time programming!
 
 ## Building
 
