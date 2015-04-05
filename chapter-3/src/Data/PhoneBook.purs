@@ -25,3 +25,9 @@ findEntry firstName lastName = head <<< filter filterEntry
   where
   filterEntry :: Entry -> Boolean
   filterEntry entry = entry.firstName == firstName && entry.lastName == lastName
+
+findEntryNumber :: String -> PhoneBook -> Maybe Entry
+findEntryNumber phone = head <<< filter filterEntry
+  where
+  filterEntry :: Entry -> Boolean
+  filterEntry entry = entry.phone == phone  
