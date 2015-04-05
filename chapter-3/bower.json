@@ -1,0 +1,29 @@
+{
+  "name": "chapter-3",
+  "description": "An empty PureScript project.",
+  "keywords": [
+    "purescript"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "tests",
+    "js",
+    "tmp",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-arrays": "*",
+    "purescript-maybe": "*",
+    "purescript-foldable-traversable": "*",
+    "purescript-lists": "~0.6.0"
+  },
+  "devDependencies": {
+    "purescript-math": "*",
+    "purescript-quickcheck": "*"
+  }
+}
